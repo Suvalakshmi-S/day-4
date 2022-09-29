@@ -1,0 +1,31 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+void perfectSquares(float l, float r)
+{ 
+    int c;
+	for (int i = l; i <= r; i++) 
+	{
+	    while(c>0)
+	    {
+		if (sqrt(i) == (int)sqrt(i)){
+			cout << i << " ";
+			c++;
+	    }
+	        
+	    }
+	}
+	
+}
+int main()
+{
+	int l , r;
+	cout<<"Enter the Lower range";
+	cin>>l;
+	cout<<"Enter the upper range:";
+	cin>>r;
+
+	perfectSquares(l, r);
+
+	return 0;
+}
